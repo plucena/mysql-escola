@@ -7,3 +7,7 @@ create table UNASP.aluno (
     primary key (idaluno)
 );
 
+ INSERT INTO UNASP.aluno (idaluno, nome, materias)  values('1', 'Diego',['Banco de Dados', 'Programacao Orientada Objetos']);
+
+SELECT * FROM ALUNO;
+
