@@ -1,5 +1,7 @@
 CREATE KEYSPACE UNASP WITH replication = { 'class': 'SimpleStrategy', 'replication_factor': 1 };
 
+USE UNASP
+
 create table UNASP.aluno (
     idaluno varchar,
     nome varchar,
